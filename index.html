@@ -37,20 +37,20 @@
           </button>
           </div>
           <div class="modal-body">
-            <form id="form">
-              <label for="task-title">Task Title</label> 
+            <form id="tasks-form">
+              <label for="task-name-input">Task Title</label> 
               <span id="due-date-label">
-                <label for="due-date">Task Due Date</label><br>
+                <label for="taskDueDate">Task Due Date</label><br>
               </span>
-                <input type="text" id="task-title" name="task-title">
-                <input type="date" id="due-date" name="due-date"><br>
-              <label for="description">Task Description</label> <br>
-              <textarea id="description" name="description" row="10" cols="50"></textarea> <br>
+                <input type="text" id="task-name-input" name="task-name-input">
+                <input type="date" id="taskDueDate" name="taskDueDate"><br>
+              <label for="task-description-input">Task Description</label> <br>
+              <textarea id="task-description-input" name="task-description-input" row="10" cols="50"></textarea> <br>
              </form>
-          </div>
-          <div class="modal-footer">
-            <div class="mx-auto">
-              <button type="button" class="btn btn-primary" class="mx-auto" id="submit">Add Task</button>
+             <div class="modal-footer">
+              <div class="mx-auto">
+                <button type="button" class="btn btn-primary" class="mx-auto" id="submit">Add Task</button>
+              </div>
             </div>
           </div>
         </div>
@@ -100,6 +100,7 @@
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
 
   <script src="./assets/js/script.js"></script>
+   <!-- <script src="./assets/js/fixing.js"></script> -->
 </body>
 
 </html>

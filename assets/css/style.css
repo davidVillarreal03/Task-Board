@@ -33,3 +33,11 @@ body {
  #due-date {
   margin-left: 60px;
  }
+
+ .task-late {
+  background-color: var(--lightred);
+}
+
+.task-today {
+  background-color: var(--lightyellow);
+}
