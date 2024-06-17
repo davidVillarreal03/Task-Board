@@ -15,4 +15,21 @@ body {
     cursor: grab;
   }
 
-  
+ #form {
+  display:block;
+  justify-content: center;
+  margin-left:10px; 
+ }
+
+ .btn-primary {
+  background-color: #198754;
+  border-color: #198754;
+ }
+
+ #due-date-label {
+  margin-left: 180px;
+ }
+
+ #due-date {
+  margin-left: 60px;
+ }
